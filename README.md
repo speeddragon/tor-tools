@@ -7,6 +7,16 @@ This is a set of tools to use with Linux/OSX machines to fetch list of files fro
 - Auto-resume
 - File size check
 
+## How to use
+
+```bash 
+# Extract URL list to a file
+./download_links.sh <URL> > list.txt
+
+# Download / Resume. This can be ran multiple times
+./verify.sh list.txt
+```
+
 ## Scripts
 
 ### download_links.sh <URL>
